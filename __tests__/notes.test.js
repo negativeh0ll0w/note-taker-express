@@ -9,8 +9,8 @@ test('create new note object', () => {
         notes
         );
 
-    expect(newNote.title).toBe('testTitle');
-    expect(newNote.text).toBe('testText');
+    expect(newNote.title).toBe('Test Title');
+    expect(newNote.text).toBe('test note text');
 });
 
 test('delete a note object', () => {
